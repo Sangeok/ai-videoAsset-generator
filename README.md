@@ -1,4 +1,4 @@
-# AI Short Video Generator
+# AI Short Video Asset Generator
 
 <div align="center">
 
