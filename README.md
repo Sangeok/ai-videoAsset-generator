@@ -11,9 +11,9 @@
 
 ---
 
-🎬 **Create YouTube Shorts quickly with AI!**
+🎬 **Create YouTube Shorts Asset quickly with AI!**
 
-An AI-powered YouTube Shorts video generation web application. Users simply input their desired topic, and AI automatically creates scripts, images, voice, and captions.
+An AI-powered YouTube Shorts video asset generation web application. Users simply input their desired topic, image style, language, voice and AI automatically creates scripts, images, voice, and captions.
 
 ## ✨ Key Features
 
