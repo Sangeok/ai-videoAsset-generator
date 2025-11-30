@@ -43,7 +43,6 @@ An AI-powered YouTube Shorts video asset generation web application. Users simpl
 
 - **OpenAI API** - High-quality voice synthesis
 - **Google Generative AI** - Gemini model utilization
-- **Google Cloud Text-to-Speech** - High-quality voice synthesis
 - **Deepgram SDK** - Extract captions in desired language from TTS
 
 ### State Management
@@ -57,7 +56,6 @@ An AI-powered YouTube Shorts video asset generation web application. Users simpl
 - Node.js 18.0 or higher
 - npm or yarn
 - OpenAI API key
-- Google Cloud API key
 - Deepgram API key
 
 ### 1. Clone Repository
