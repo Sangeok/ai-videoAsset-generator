@@ -1,6 +1,5 @@
 "use client";
 
-import ToggleSideBarButton from "@/src/shared/ui/atoms/Button/ToggleSideBarButton";
 import { Button } from "@/src/shared/ui/atoms/Button/Button";
 import { WandSparkles } from "lucide-react";
 import Link from "next/link";
@@ -20,9 +19,7 @@ export default function CreateNewVideo() {
   const title = useCreateVideoStore((state) => state.initialCreateVideoData.title);
 
   return (
-    <div>
-      <ToggleSideBarButton />
-
+    <div className="p-4">
       <h2 className="text-2xl font-bold mt-2 p-4">Create New Video</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 p-4 gap-7">
         <div className="col-span-2 p-7 border rounded-xl h-[72vh] overflow-y-auto">
@@ -44,12 +41,6 @@ export default function CreateNewVideo() {
 
           {/* Gen Captions */}
           <VideoCaption />
-
-          <Link href={`/play-video/${title || "test"}`}>
-            <Button className="bg-white text-black mt-5 w-full cursor-pointer">
-              <WandSparkles /> Generate Video
-            </Button>
-          </Link>
         </div>
         <div>
           <Preview />
