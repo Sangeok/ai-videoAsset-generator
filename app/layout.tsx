@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./providers/provider";
-import { SidebarProvider } from "./providers/SidebarContext";
 import { TooltipProvider } from "@/src/shared/ui/atoms/tooltip";
 
 const outfit = Outfit({
@@ -25,9 +24,7 @@ export default function RootLayout({
       <body className={outfit.className}>
         {" "}
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <TooltipProvider>
-            <SidebarProvider>{children}</SidebarProvider>
-          </TooltipProvider>
+          <TooltipProvider>{children}</TooltipProvider>
         </ThemeProvider>
       </body>
     </html>
